@@ -20,7 +20,8 @@ interface WeatherData {
   }[];
 }
 
-const API_KEY = "38e9d512b05d0c4139dee808d57de583";
+const API_KEY = "Your_API_Key_Here"; // Replace with your OpenWeatherMap API key
+// You can get a free API key from https://openweathermap.org/api
 
 export default function WeatherScreen() {
   const [city, setCity] = useState("Cebu City");
